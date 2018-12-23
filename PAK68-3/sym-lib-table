@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name file5C13D8EB-rescue)(type Legacy)(uri ${KIPRJMOD}/file5C13D8EB-rescue.lib)(options "")(descr ""))
+  (lib (name SL530-eagle-import)(type Legacy)(uri ${KIPRJMOD}/SL530-eagle-import.lib)(options "")(descr ""))
+)

@@ -1,0 +1,1197 @@
+EESchema Schematic File Version 4
+LIBS:PAK68-3-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 3
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATX68030-cache:GAL20V8 U1-GAL1
+U 1 1 5C4A33F8
+P 6100 4700
+F 0 "U1-GAL1" H 6100 5400 60  0000 C CNN
+F 1 "GAL20V8" H 6100 4000 60  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W7.62mm" H 6700 5200 50  0001 C CNN
+F 3 "" H 6700 5200 50  0001 C CNN
+	1    6100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX68030-cache:GAL20V8 U2-GAL2
+U 1 1 5C4A4359
+P 9150 4700
+F 0 "U2-GAL2" H 9150 5400 60  0000 C CNN
+F 1 "GAL20V8" H 9150 4000 60  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W7.62mm" H 9750 5200 50  0001 C CNN
+F 3 "" H 9750 5200 50  0001 C CNN
+	1    9150 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX68030-cache:GAL20V8 U5-GAL5
+U 1 1 5C4A4A1D
+P 6100 2100
+F 0 "U5-GAL5" H 6100 2800 60  0000 C CNN
+F 1 "GAL20V8" H 6100 1400 60  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W7.62mm" H 6700 2600 50  0001 C CNN
+F 3 "" H 6700 2600 50  0001 C CNN
+	1    6100 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX68030-cache:GAL20V8 U4-GAL4
+U 1 1 5C4A52EA
+P 9150 2100
+F 0 "U4-GAL4" H 9150 2800 60  0000 C CNN
+F 1 "GAL20V8" H 9150 1400 60  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W7.62mm" H 9750 2600 50  0001 C CNN
+F 3 "" H 9750 2600 50  0001 C CNN
+	1    9150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX68030-cache:GAL20V8 U6-GAL6
+U 1 1 5C4A58F7
+P 2750 2100
+F 0 "U6-GAL6" H 2750 2800 60  0000 C CNN
+F 1 "GAL20V8" H 2750 1400 60  0000 C CNN
+F 2 "Housings_DIP:DIP-24_W7.62mm" H 3350 2600 50  0001 C CNN
+F 3 "" H 3350 2600 50  0001 C CNN
+	1    2750 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:Conn_01x19_Male CON1
+U 1 1 5C4AC46A
+P 2850 4200
+F 0 "CON1" H 2822 4224 50  0000 R CNN
+F 1 "Conn_01x19_Male" H 2822 4133 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x19_Pitch2.54mm" H 2850 4200 50  0001 C CNN
+F 3 "~" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Atari:R_Network08 RN?
+U 1 1 5C6BF708
+P 3950 1400
+AR Path="/5C6BF708" Ref="RN?"  Part="1" 
+AR Path="/5C4A046F/5C6BF708" Ref="RN1"  Part="1" 
+F 0 "RN1" H 3950 1500 50  0000 C CNN
+F 1 "4K7" H 3950 1400 50  0000 C CNN
+F 2 "Resistors_THT:R_Array_SIP9" H 3950 1275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" V 3850 1600 50  0001 C CNN
+	1    3950 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Atari:R_Network08 RN?
+U 3 1 5C6BF70E
+P 2700 5400
+AR Path="/5C6BF70E" Ref="RN?"  Part="3" 
+AR Path="/5C4A046F/5C6BF70E" Ref="RN1"  Part="3" 
+F 0 "RN1" H 2700 5500 50  0000 C CNN
+F 1 "4K7" H 2700 5400 50  0000 C CNN
+F 2 "Resistors_THT:R_Array_SIP9" H 2700 5275 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" V 2600 5600 50  0001 C CNN
+	3    2700 5400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Atari:R_Network08 RN?
+U 4 1 5C6BF714
+P 6950 5250
+AR Path="/5C6BF714" Ref="RN?"  Part="4" 
+AR Path="/5C4A046F/5C6BF714" Ref="RN1"  Part="4" 
+F 0 "RN1" H 6950 5150 50  0000 C CNN
+F 1 "4K7" H 6950 5250 50  0000 C CNN
+F 2 "Resistors_THT:R_Array_SIP9" H 6950 5125 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" V 6850 5450 50  0001 C CNN
+	4    6950 5250
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2050 8550 2050
+Wire Wire Line
+	6700 2150 8550 2150
+Wire Wire Line
+	5500 4350 5400 4350
+Wire Wire Line
+	5400 4350 5400 4150
+Wire Wire Line
+	5400 4150 5500 4150
+Text GLabel 5400 4150 0    50   Input ~ 0
+CPUCLK
+$Comp
+L power:VCC #PWR0144
+U 1 1 5C6DDB21
+P 6700 4150
+F 0 "#PWR0144" H 6700 4000 50  0001 C CNN
+F 1 "VCC" H 6717 4323 50  0000 C CNN
+F 2 "" H 6700 4150 50  0001 C CNN
+F 3 "" H 6700 4150 50  0001 C CNN
+	1    6700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 4250 6850 4250
+Wire Wire Line
+	6850 4250 6850 3850
+Wire Wire Line
+	6850 3850 9900 3850
+Wire Wire Line
+	9750 4250 9900 4250
+Wire Wire Line
+	9900 4250 9900 3850
+Connection ~ 9900 3850
+Wire Wire Line
+	9900 3850 10200 3850
+$Comp
+L power:VCC #PWR0145
+U 1 1 5C6E0556
+P 9750 4150
+F 0 "#PWR0145" H 9750 4000 50  0001 C CNN
+F 1 "VCC" H 9767 4323 50  0000 C CNN
+F 2 "" H 9750 4150 50  0001 C CNN
+F 3 "" H 9750 4150 50  0001 C CNN
+	1    9750 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 10200 3850 2    50   Input ~ 0
+MAT0
+Wire Wire Line
+	5500 4250 5000 4250
+Wire Wire Line
+	5000 4250 5000 3750
+Wire Wire Line
+	5000 3750 8200 3750
+Text GLabel 10200 3750 2    50   Input ~ 0
+MAT2
+Wire Wire Line
+	8550 4250 8200 4250
+Wire Wire Line
+	8200 4250 8200 3750
+Connection ~ 8200 3750
+Wire Wire Line
+	8200 3750 10200 3750
+Text GLabel 5500 4450 0    50   Input ~ 0
+A1
+Text GLabel 5500 4550 0    50   Input ~ 0
+~AS_00~
+Wire Wire Line
+	9750 4550 10050 4550
+Text GLabel 10200 4550 2    50   Input ~ 0
+~TCLR~
+Wire Wire Line
+	5500 4650 5400 4650
+Wire Wire Line
+	5400 4650 5400 5700
+Wire Wire Line
+	5400 5700 10050 5700
+Wire Wire Line
+	10050 5700 10050 4550
+Connection ~ 10050 4550
+Wire Wire Line
+	10050 4550 10200 4550
+Text GLabel 5500 4750 0    50   Input ~ 0
+RW
+Text GLabel 5500 4850 0    50   Input ~ 0
+~AS_20~
+$Comp
+L Connector:Conn_01x03_Male J7
+U 1 1 5C6E6492
+P 9450 3300
+F 0 "J7" H 9422 3232 50  0000 R CNN
+F 1 "ROM" H 9422 3323 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 9450 3300 50  0001 C CNN
+F 3 "~" H 9450 3300 50  0001 C CNN
+	1    9450 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 4950 4900 4950
+Wire Wire Line
+	4900 4950 4900 3400
+Wire Wire Line
+	4900 3400 8900 3400
+Text GLabel 4900 4950 0    50   Input ~ 0
+~PROM~
+Wire Wire Line
+	5500 5050 4200 5050
+Wire Wire Line
+	4200 5050 4200 1850
+Wire Wire Line
+	4200 1850 3350 1850
+Text GLabel 5500 5050 0    50   Input ~ 0
+~CSP19~
+Wire Wire Line
+	2650 4300 2450 4300
+Wire Wire Line
+	2450 5800 5300 5800
+Wire Wire Line
+	5300 5800 5300 5150
+Wire Wire Line
+	5300 5150 5500 5150
+$Comp
+L Connector:Conn_01x03_Male J11
+U 1 1 5C6F5F11
+P 3450 5600
+F 0 "J11" H 3422 5532 50  0000 R CNN
+F 1 "CACHE CTRL" H 3422 5623 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x03_Pitch2.54mm" H 3450 5600 50  0001 C CNN
+F 3 "~" H 3450 5600 50  0001 C CNN
+	1    3450 5600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2450 4300 2450 5400
+Wire Wire Line
+	3250 5600 2450 5600
+Connection ~ 2450 5600
+Wire Wire Line
+	2450 5600 2450 5800
+Connection ~ 2450 5400
+Wire Wire Line
+	2450 5400 2450 5600
+Wire Wire Line
+	9250 3300 4100 3300
+Wire Wire Line
+	4100 3300 4100 5350
+Wire Wire Line
+	4100 5350 3250 5350
+Wire Wire Line
+	3250 5350 3250 5500
+Wire Wire Line
+	4100 3300 4100 1950
+Wire Wire Line
+	4100 1950 3350 1950
+Connection ~ 4100 3300
+Text GLabel 4100 3300 0    50   Input ~ 0
+~ROM~
+$Comp
+L power:GND #PWR0146
+U 1 1 5C72F141
+P 5500 5250
+F 0 "#PWR0146" H 5500 5000 50  0001 C CNN
+F 1 "GND" H 5505 5077 50  0000 C CNN
+F 2 "" H 5500 5250 50  0001 C CNN
+F 3 "" H 5500 5250 50  0001 C CNN
+	1    5500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2350 4300 2350
+Wire Wire Line
+	4300 2350 4300 5600
+Text GLabel 4300 5600 0    50   Input ~ 0
+~DRAM~
+Text GLabel 6700 5050 2    50   Input ~ 0
+~ROE~
+Text GLabel 6700 4850 2    50   Input ~ 0
+~DOE~
+Text GLabel 6700 4950 2    50   Input ~ 0
+W1
+Text GLabel 6700 4750 2    50   Input ~ 0
+W2
+Wire Wire Line
+	9250 3200 8750 3200
+Wire Wire Line
+	8200 3100 6950 3100
+Wire Wire Line
+	6700 4550 6950 4550
+Wire Wire Line
+	6950 4550 6950 3100
+Connection ~ 6950 3100
+Text GLabel 6700 4450 2    50   Input ~ 0
+~DSACK0~
+Text GLabel 6700 4350 2    50   Input ~ 0
+~DSACK1~
+Wire Wire Line
+	5300 5800 8100 5800
+Connection ~ 5300 5800
+Text GLabel 8550 4350 0    50   Input ~ 0
+A0
+Text GLabel 8550 4450 0    50   Input ~ 0
+A1
+Text GLabel 8550 4550 0    50   Input ~ 0
+~AS_00~
+Text GLabel 8550 4650 0    50   Input ~ 0
+~BGACK_20~
+Text GLabel 8550 4750 0    50   Input ~ 0
+RW
+Text GLabel 8550 4850 0    50   Input ~ 0
+~AS_20~
+Wire Wire Line
+	8100 4150 8100 5800
+Wire Wire Line
+	8100 4150 8550 4150
+Wire Wire Line
+	9750 2450 10000 2450
+Wire Wire Line
+	10000 2450 10000 3650
+Wire Wire Line
+	10000 3650 8000 3650
+Wire Wire Line
+	8000 3650 8000 4950
+Wire Wire Line
+	8000 4950 8550 4950
+Text GLabel 8000 3650 0    50   Input ~ 0
+~DSACK~
+Text GLabel 8550 5050 0    50   Input ~ 0
+~RESET~
+Text GLabel 8550 5150 0    50   Input ~ 0
+SIZ1
+$Comp
+L power:GND #PWR0147
+U 1 1 5C75BEBC
+P 8550 5250
+F 0 "#PWR0147" H 8550 5000 50  0001 C CNN
+F 1 "GND" H 8555 5077 50  0000 C CNN
+F 2 "" H 8550 5250 50  0001 C CNN
+F 3 "" H 8550 5250 50  0001 C CNN
+	1    8550 5250
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 5250 2    50   Input ~ 0
+SIZ0
+Wire Wire Line
+	10150 5600 10150 5150
+Wire Wire Line
+	10150 5150 9750 5150
+Wire Wire Line
+	7450 5150 7450 5600
+Connection ~ 7450 5600
+Wire Wire Line
+	7450 5600 10150 5600
+Wire Wire Line
+	4300 5600 7450 5600
+Wire Wire Line
+	6700 5150 7450 5150
+Text GLabel 9750 5050 2    50   Input ~ 0
+~TWE2~
+Text GLabel 9750 4950 2    50   Input ~ 0
+~DWE3~
+Text GLabel 9750 4850 2    50   Input ~ 0
+~DWE1~
+$Comp
+L conn:Conn_01x02_Male J4
+U 1 1 5C76DC76
+P 10500 5500
+F 0 "J4" H 10472 5382 50  0000 R CNN
+F 1 "SLC_DIS" H 10472 5473 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 10500 5500 50  0001 C CNN
+F 3 "~" H 10500 5500 50  0001 C CNN
+	1    10500 5500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9750 4750 10300 4750
+Wire Wire Line
+	10300 4750 10300 5150
+Text GLabel 10300 4750 2    50   Input ~ 0
+~C2OFF~
+$Comp
+L Device:R R26
+U 1 1 5C77129E
+P 10450 5150
+F 0 "R26" V 10350 5150 50  0000 C CNN
+F 1 "4K7" V 10450 5150 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10380 5150 50  0001 C CNN
+F 3 "~" H 10450 5150 50  0001 C CNN
+	1    10450 5150
+	0    1    1    0   
+$EndComp
+Connection ~ 10300 5150
+Wire Wire Line
+	10300 5150 10300 5400
+$Comp
+L power:GND #PWR0148
+U 1 1 5C772AF4
+P 10300 5500
+F 0 "#PWR0148" H 10300 5250 50  0001 C CNN
+F 1 "GND" H 10305 5327 50  0000 C CNN
+F 2 "" H 10300 5500 50  0001 C CNN
+F 3 "" H 10300 5500 50  0001 C CNN
+	1    10300 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 9750 4650 2    50   Input ~ 0
+~DWE2~
+Text GLabel 9750 4450 2    50   Input ~ 0
+~DWE0~
+Text GLabel 9750 4350 2    50   Input ~ 0
+~TWE0~
+Text GLabel 8550 1550 0    50   Input ~ 0
+CLK16
+Text GLabel 8550 1650 0    50   Input ~ 0
+CLK8
+Wire Wire Line
+	8550 1750 7700 1750
+Wire Wire Line
+	7700 1750 7700 3200
+Wire Wire Line
+	8550 2450 7550 2450
+Wire Wire Line
+	7550 2450 7550 3200
+Text GLabel 7700 1750 0    50   Input ~ 0
+~FROM~
+$Comp
+L Device:R R25
+U 1 1 5C7828CB
+P 8900 3000
+F 0 "R25" H 9050 3000 50  0000 C CNN
+F 1 "4K7" V 8900 3000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8830 3000 50  0001 C CNN
+F 3 "~" H 8900 3000 50  0001 C CNN
+	1    8900 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 5C7834E4
+P 8750 3000
+F 0 "R24" H 8600 3000 50  0000 C CNN
+F 1 "4K7" V 8750 3000 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8680 3000 50  0001 C CNN
+F 3 "~" H 8750 3000 50  0001 C CNN
+	1    8750 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 3150 8750 3200
+Connection ~ 8750 3200
+Wire Wire Line
+	8750 3200 7700 3200
+Wire Wire Line
+	8900 3150 8900 3400
+Connection ~ 8900 3400
+Wire Wire Line
+	8900 3400 9250 3400
+Wire Wire Line
+	8550 1850 8200 1850
+Wire Wire Line
+	8200 1850 8200 3100
+Text GLabel 8200 1850 0    50   Input ~ 0
+~CYC_00~
+Text GLabel 8550 1950 0    50   Input ~ 0
+RW
+Text GLabel 8550 2250 0    50   Input ~ 0
+SIZ1
+Text GLabel 8550 2350 0    50   Input ~ 0
+~AS_20~
+Text GLabel 8550 2550 0    50   Input ~ 0
+A0
+$Comp
+L power:GND #PWR0149
+U 1 1 5C7A23A2
+P 8550 2650
+F 0 "#PWR0149" H 8550 2400 50  0001 C CNN
+F 1 "GND" H 8555 2477 50  0000 C CNN
+F 2 "" H 8550 2650 50  0001 C CNN
+F 3 "" H 8550 2650 50  0001 C CNN
+	1    8550 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2250 7250 2250
+Wire Wire Line
+	7250 2250 7250 1300
+Wire Wire Line
+	10250 1300 10250 2650
+Wire Wire Line
+	7250 1300 10250 1300
+Wire Wire Line
+	9750 2650 10250 2650
+Text GLabel 10250 2650 2    50   Input ~ 0
+~ENAB~
+Text GLabel 9750 2550 2    50   Input ~ 0
+SIZ0
+Text GLabel 9750 2350 2    50   Input ~ 0
+~DSACK1~
+Text GLabel 9750 2250 2    50   Input ~ 0
+Q0
+Text GLabel 9750 2150 2    50   Input ~ 0
+~VMA~
+Text GLabel 9750 2050 2    50   Input ~ 0
+~AS_00~
+Text GLabel 9750 1950 2    50   Input ~ 0
+Q1
+Text GLabel 9750 1850 2    50   Input ~ 0
+~LDS~
+Text GLabel 9750 1750 2    50   Input ~ 0
+~UDS~
+Text GLabel 9750 1650 2    50   Input ~ 0
+~DTACK~
+$Comp
+L power:VCC #PWR0150
+U 1 1 5C7AA299
+P 9750 1550
+F 0 "#PWR0150" H 9750 1400 50  0001 C CNN
+F 1 "VCC" H 9767 1723 50  0000 C CNN
+F 2 "" H 9750 1550 50  0001 C CNN
+F 3 "" H 9750 1550 50  0001 C CNN
+	1    9750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0151
+U 1 1 5C7AC253
+P 6700 1550
+F 0 "#PWR0151" H 6700 1400 50  0001 C CNN
+F 1 "VCC" H 6717 1723 50  0000 C CNN
+F 2 "" H 6700 1550 50  0001 C CNN
+F 3 "" H 6700 1550 50  0001 C CNN
+	1    6700 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0152
+U 1 1 5C7AC6DE
+P 5500 2650
+F 0 "#PWR0152" H 5500 2400 50  0001 C CNN
+F 1 "GND" H 5505 2477 50  0000 C CNN
+F 2 "" H 5500 2650 50  0001 C CNN
+F 3 "" H 5500 2650 50  0001 C CNN
+	1    5500 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 5500 1550 0    50   Input ~ 0
+CLK16
+Text GLabel 5500 1650 0    50   Input ~ 0
+CLK8
+Wire Wire Line
+	4950 1750 4950 3100
+Wire Wire Line
+	4950 1750 5500 1750
+Wire Wire Line
+	4950 3100 6950 3100
+Text GLabel 5500 1850 0    50   Input ~ 0
+~VPA~
+$Comp
+L conn:Conn_01x02_Male J5
+U 1 1 5C7B4D70
+P 6150 950
+F 0 "J5" H 6122 832 50  0000 R CNN
+F 1 "PAK_EN" H 6122 923 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 6150 950 50  0001 C CNN
+F 3 "~" H 6150 950 50  0001 C CNN
+	1    6150 950 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5500 1950 5050 1950
+Wire Wire Line
+	5050 1950 5050 1200
+$Comp
+L Device:R R23
+U 1 1 5C7BAEFE
+P 5200 1200
+F 0 "R23" V 5100 1200 50  0000 C CNN
+F 1 "4K7" V 5200 1200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5130 1200 50  0001 C CNN
+F 3 "~" H 5200 1200 50  0001 C CNN
+	1    5200 1200
+	0    1    1    0   
+$EndComp
+Connection ~ 5050 1200
+$Comp
+L power:GND #PWR0153
+U 1 1 5C7BBDE2
+P 5950 950
+F 0 "#PWR0153" H 5950 700 50  0001 C CNN
+F 1 "GND" H 5955 777 50  0000 C CNN
+F 2 "" H 5950 950 50  0001 C CNN
+F 3 "" H 5950 950 50  0001 C CNN
+	1    5950 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 850  5950 750 
+Wire Wire Line
+	5050 750  5050 1200
+Wire Wire Line
+	7150 750  7150 2650
+Wire Wire Line
+	7150 2650 6700 2650
+Wire Wire Line
+	5050 750  5950 750 
+Connection ~ 5950 750 
+Wire Wire Line
+	5950 750  7150 750 
+Text GLabel 5050 750  0    50   Input ~ 0
+~PAKEN~
+Text GLabel 5500 2050 0    50   Input ~ 0
+~BGACK_00~
+Text GLabel 5500 2150 0    50   Input ~ 0
+~BG_20~
+Text GLabel 5500 2250 0    50   Input ~ 0
+~BR_20~
+Text GLabel 5500 2350 0    50   Input ~ 0
+~AS_20~
+Text GLabel 5500 2450 0    50   Input ~ 0
+FC0
+Text GLabel 5500 2550 0    50   Input ~ 0
+FC1
+Text GLabel 6700 2450 2    50   Input ~ 0
+~BGX~
+Text GLabel 6700 2350 2    50   Input ~ 0
+E0
+Text GLabel 6700 1950 2    50   Input ~ 0
+~BG_00~
+Text GLabel 6700 1850 2    50   Input ~ 0
+~BGACK_20~
+Text GLabel 6700 1750 2    50   Input ~ 0
+E_20
+Text GLabel 2150 1550 0    50   Input ~ 0
+~VPA~
+Text GLabel 2150 1650 0    50   Input ~ 0
+FC0
+Text GLabel 2150 1750 0    50   Input ~ 0
+FC1
+Text GLabel 2150 1850 0    50   Input ~ 0
+~AS_20~
+Text GLabel 2150 1950 0    50   Input ~ 0
+A21
+Text GLabel 2150 2050 0    50   Input ~ 0
+A20
+Text GLabel 2150 2150 0    50   Input ~ 0
+A17
+Text GLabel 2150 2250 0    50   Input ~ 0
+A18
+Text GLabel 2150 2350 0    50   Input ~ 0
+A16
+Text GLabel 2150 2450 0    50   Input ~ 0
+A19
+Text GLabel 2150 2550 0    50   Input ~ 0
+A22
+$Comp
+L power:GND #PWR0154
+U 1 1 5C7D4B00
+P 2150 2650
+F 0 "#PWR0154" H 2150 2400 50  0001 C CNN
+F 1 "GND" H 2155 2477 50  0000 C CNN
+F 2 "" H 2150 2650 50  0001 C CNN
+F 3 "" H 2150 2650 50  0001 C CNN
+	1    2150 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0155
+U 1 1 5C7D564F
+P 3350 1550
+F 0 "#PWR0155" H 3350 1400 50  0001 C CNN
+F 1 "VCC" H 3367 1723 50  0000 C CNN
+F 2 "" H 3350 1550 50  0001 C CNN
+F 3 "" H 3350 1550 50  0001 C CNN
+	1    3350 1550
+	1    0    0    -1  
+$EndComp
+Text GLabel 3350 2650 2    50   Input ~ 0
+~BERR_00~
+Text GLabel 3350 2550 2    50   Input ~ 0
+A23
+Text GLabel 3350 2450 2    50   Input ~ 0
+~AVEC~
+Wire Wire Line
+	4400 3200 4400 2150
+Wire Wire Line
+	4400 2150 3350 2150
+Wire Wire Line
+	4400 3200 7550 3200
+Text GLabel 4400 2150 2    50   Input ~ 0
+~WORD~
+Text GLabel 3350 2050 2    50   Input ~ 0
+~FPUCS~
+Text GLabel 3350 1750 2    50   Input ~ 0
+~BERR_20~
+$Comp
+L conn:Conn_01x02_Male J3
+U 1 1 5C7DBBF2
+P 4550 1750
+F 0 "J3" H 4522 1632 50  0000 R CNN
+F 1 "FPU_EN" H 4522 1723 50  0000 R CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02_Pitch2.54mm" H 4550 1750 50  0001 C CNN
+F 3 "~" H 4550 1750 50  0001 C CNN
+	1    4550 1750
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4350 1650 3950 1650
+$Comp
+L power:GND #PWR0156
+U 1 1 5C7E76E5
+P 4350 1750
+F 0 "#PWR0156" H 4350 1500 50  0001 C CNN
+F 1 "GND" H 4355 1577 50  0000 C CNN
+F 2 "" H 4350 1750 50  0001 C CNN
+F 3 "" H 4350 1750 50  0001 C CNN
+	1    4350 1750
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 1650
+Wire Wire Line
+	3950 1650 3350 1650
+Text GLabel 2650 4000 0    50   Input ~ 0
+A0
+Text GLabel 2650 4100 0    50   Input ~ 0
+SIZ1
+Text GLabel 2650 4200 0    50   Input ~ 0
+SIZ0
+Text GLabel 2650 4400 0    50   Input ~ 0
+~AS_20~
+Text GLabel 2650 4500 0    50   Input ~ 0
+A25
+Text GLabel 2650 4600 0    50   Input ~ 0
+A24
+Text GLabel 2650 4700 0    50   Input ~ 0
+A31
+Text GLabel 2650 4900 0    50   Input ~ 0
+~DS~
+$Comp
+L ATX68030-cache:C C2
+U 1 1 5C839004
+P 900 1250
+F 0 "C2" V 633 1250 50  0000 C CNN
+F 1 "C" V 724 1250 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 1250 50  0001 C CNN
+F 3 "" H 900 1250 50  0001 C CNN
+	1    900  1250
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0157
+U 1 1 5C83AAD7
+P 1100 800
+F 0 "#PWR0157" H 1100 650 50  0001 C CNN
+F 1 "VCC" H 1117 973 50  0000 C CNN
+F 2 "" H 1100 800 50  0001 C CNN
+F 3 "" H 1100 800 50  0001 C CNN
+	1    1100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ATX68030-cache:C C3
+U 1 1 5C83BD36
+P 900 1700
+F 0 "C3" V 633 1700 50  0000 C CNN
+F 1 "C" V 724 1700 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 1700 50  0001 C CNN
+F 3 "" H 900 1700 50  0001 C CNN
+	1    900  1700
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C4
+U 1 1 5C83CA65
+P 900 2150
+F 0 "C4" V 633 2150 50  0000 C CNN
+F 1 "C" V 724 2150 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 2150 50  0001 C CNN
+F 3 "" H 900 2150 50  0001 C CNN
+	1    900  2150
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C5
+U 1 1 5C840346
+P 900 2600
+F 0 "C5" V 633 2600 50  0000 C CNN
+F 1 "C" V 724 2600 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 2600 50  0001 C CNN
+F 3 "" H 900 2600 50  0001 C CNN
+	1    900  2600
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C6
+U 1 1 5C840350
+P 900 3050
+F 0 "C6" V 633 3050 50  0000 C CNN
+F 1 "C" V 724 3050 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 3050 50  0001 C CNN
+F 3 "" H 900 3050 50  0001 C CNN
+	1    900  3050
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C8
+U 1 1 5C84035A
+P 900 3950
+F 0 "C8" V 633 3950 50  0000 C CNN
+F 1 "C" V 724 3950 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 3950 50  0001 C CNN
+F 3 "" H 900 3950 50  0001 C CNN
+	1    900  3950
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C7
+U 1 1 5C84ADD5
+P 900 3500
+F 0 "C7" V 633 3500 50  0000 C CNN
+F 1 "C" V 724 3500 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 3500 50  0001 C CNN
+F 3 "" H 900 3500 50  0001 C CNN
+	1    900  3500
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C9
+U 1 1 5C84ADDF
+P 900 4400
+F 0 "C9" V 633 4400 50  0000 C CNN
+F 1 "C" V 724 4400 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 4400 50  0001 C CNN
+F 3 "" H 900 4400 50  0001 C CNN
+	1    900  4400
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C10
+U 1 1 5C84ADE9
+P 900 4850
+F 0 "C10" V 633 4850 50  0000 C CNN
+F 1 "C" V 724 4850 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 4850 50  0001 C CNN
+F 3 "" H 900 4850 50  0001 C CNN
+	1    900  4850
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C11
+U 1 1 5C84ADF3
+P 900 5300
+F 0 "C11" V 633 5300 50  0000 C CNN
+F 1 "C" V 724 5300 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 5300 50  0001 C CNN
+F 3 "" H 900 5300 50  0001 C CNN
+	1    900  5300
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C13
+U 1 1 5C863584
+P 900 6200
+F 0 "C13" V 633 6200 50  0000 C CNN
+F 1 "C" V 724 6200 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 6200 50  0001 C CNN
+F 3 "" H 900 6200 50  0001 C CNN
+	1    900  6200
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C12
+U 1 1 5C86358E
+P 900 5750
+F 0 "C12" V 633 5750 50  0000 C CNN
+F 1 "C" V 724 5750 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 5750 50  0001 C CNN
+F 3 "" H 900 5750 50  0001 C CNN
+	1    900  5750
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C14
+U 1 1 5C863598
+P 900 6650
+F 0 "C14" V 633 6650 50  0000 C CNN
+F 1 "C" V 724 6650 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 6650 50  0001 C CNN
+F 3 "" H 900 6650 50  0001 C CNN
+	1    900  6650
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C15
+U 1 1 5C8635A2
+P 900 7100
+F 0 "C15" V 633 7100 50  0000 C CNN
+F 1 "C" V 724 7100 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 7100 50  0001 C CNN
+F 3 "" H 900 7100 50  0001 C CNN
+	1    900  7100
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C16
+U 1 1 5C8635AC
+P 900 7550
+F 0 "C16" V 633 7550 50  0000 C CNN
+F 1 "C" V 724 7550 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 7550 50  0001 C CNN
+F 3 "" H 900 7550 50  0001 C CNN
+	1    900  7550
+	0    1    1    0   
+$EndComp
+$Comp
+L ATX68030-cache:C C1
+U 1 1 5C884687
+P 900 800
+F 0 "C1" V 633 800 50  0000 C CNN
+F 1 "C" V 724 800 50  0000 C CNN
+F 2 "Capacitors_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm" H 900 800 50  0001 C CNN
+F 3 "" H 900 800 50  0001 C CNN
+	1    900  800 
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1100 800  1100 1250
+Connection ~ 1100 800 
+Connection ~ 1100 1250
+Wire Wire Line
+	1100 1250 1100 1700
+Connection ~ 1100 1700
+Wire Wire Line
+	1100 1700 1100 2150
+Connection ~ 1100 2150
+Wire Wire Line
+	1100 2150 1100 2600
+Connection ~ 1100 2600
+Wire Wire Line
+	1100 2600 1100 3050
+Connection ~ 1100 3050
+Wire Wire Line
+	1100 3050 1100 3500
+Connection ~ 1100 3500
+Wire Wire Line
+	1100 3500 1100 3950
+Connection ~ 1100 3950
+Wire Wire Line
+	1100 3950 1100 4400
+Connection ~ 1100 4400
+Wire Wire Line
+	1100 4400 1100 4850
+Connection ~ 1100 4850
+Wire Wire Line
+	1100 4850 1100 5300
+Connection ~ 1100 5300
+Wire Wire Line
+	1100 5300 1100 5750
+Connection ~ 1100 5750
+Wire Wire Line
+	1100 5750 1100 6200
+Connection ~ 1100 6200
+Wire Wire Line
+	1100 6200 1100 6650
+Connection ~ 1100 6650
+Wire Wire Line
+	1100 6650 1100 7100
+Connection ~ 1100 7100
+Wire Wire Line
+	1100 7100 1100 7550
+$Comp
+L power:GND #PWR0158
+U 1 1 5C890F13
+P 700 7550
+F 0 "#PWR0158" H 700 7300 50  0001 C CNN
+F 1 "GND" H 705 7377 50  0000 C CNN
+F 2 "" H 700 7550 50  0001 C CNN
+F 3 "" H 700 7550 50  0001 C CNN
+	1    700  7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	700  7550 700  7100
+Connection ~ 700  7550
+Connection ~ 700  1250
+Wire Wire Line
+	700  1250 700  800 
+Connection ~ 700  1700
+Wire Wire Line
+	700  1700 700  1250
+Connection ~ 700  2150
+Wire Wire Line
+	700  2150 700  1700
+Connection ~ 700  2600
+Wire Wire Line
+	700  2600 700  2150
+Connection ~ 700  3050
+Wire Wire Line
+	700  3050 700  2600
+Connection ~ 700  3500
+Wire Wire Line
+	700  3500 700  3050
+Connection ~ 700  3950
+Wire Wire Line
+	700  3950 700  3500
+Connection ~ 700  4400
+Wire Wire Line
+	700  4400 700  3950
+Connection ~ 700  4850
+Wire Wire Line
+	700  4850 700  4400
+Connection ~ 700  5300
+Wire Wire Line
+	700  5300 700  4850
+Connection ~ 700  5750
+Wire Wire Line
+	700  5750 700  5300
+Connection ~ 700  6200
+Wire Wire Line
+	700  6200 700  5750
+Connection ~ 700  6650
+Wire Wire Line
+	700  6650 700  6200
+Connection ~ 700  7100
+Wire Wire Line
+	700  7100 700  6650
+$Comp
+L power:VCC #PWR0167
+U 1 1 5C89F2EE
+P 8750 2850
+F 0 "#PWR0167" H 8750 2700 50  0001 C CNN
+F 1 "VCC" H 8800 2850 50  0000 C CNN
+F 2 "" H 8750 2850 50  0001 C CNN
+F 3 "" H 8750 2850 50  0001 C CNN
+	1    8750 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0168
+U 1 1 5C89F502
+P 8900 2850
+F 0 "#PWR0168" H 8900 2700 50  0001 C CNN
+F 1 "VCC" H 8950 2850 50  0000 C CNN
+F 2 "" H 8900 2850 50  0001 C CNN
+F 3 "" H 8900 2850 50  0001 C CNN
+	1    8900 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0169
+U 1 1 5C8A0F30
+P 10600 5150
+F 0 "#PWR0169" H 10600 5000 50  0001 C CNN
+F 1 "VCC" H 10617 5323 50  0000 C CNN
+F 2 "" H 10600 5150 50  0001 C CNN
+F 3 "" H 10600 5150 50  0001 C CNN
+	1    10600 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0170
+U 1 1 5C8A1CE3
+P 5350 1200
+F 0 "#PWR0170" H 5350 1050 50  0001 C CNN
+F 1 "VCC" H 5367 1373 50  0000 C CNN
+F 2 "" H 5350 1200 50  0001 C CNN
+F 3 "" H 5350 1200 50  0001 C CNN
+	1    5350 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0176
+U 1 1 5C8F9890
+P 2950 5400
+F 0 "#PWR0176" H 2950 5250 50  0001 C CNN
+F 1 "VCC" H 2967 5573 50  0000 C CNN
+F 2 "" H 2950 5400 50  0001 C CNN
+F 3 "" H 2950 5400 50  0001 C CNN
+	1    2950 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0177
+U 1 1 5C8FB5E9
+P 7200 5250
+F 0 "#PWR0177" H 7200 5100 50  0001 C CNN
+F 1 "VCC" H 7217 5423 50  0000 C CNN
+F 2 "" H 7200 5250 50  0001 C CNN
+F 3 "" H 7200 5250 50  0001 C CNN
+	1    7200 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0178
+U 1 1 5C90238E
+P 3950 1150
+F 0 "#PWR0178" H 3950 1000 50  0001 C CNN
+F 1 "VCC" H 3967 1323 50  0000 C CNN
+F 2 "" H 3950 1150 50  0001 C CNN
+F 3 "" H 3950 1150 50  0001 C CNN
+	1    3950 1150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 6750 0    50   Input ~ 0
+~PAKEN~
+$Comp
+L conn:Conn_01x02_Male J6
+U 1 1 5CA7519C
+P 2050 6950
+F 0 "J6" H 2158 7131 50  0000 C CNN
+F 1 "BR" H 2158 7040 50  0000 C CNN
+F 2 "" H 2050 6950 50  0001 C CNN
+F 3 "~" H 2050 6950 50  0001 C CNN
+	1    2050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5CA76E4E
+P 2250 7050
+F 0 "#PWR?" H 2250 6800 50  0001 C CNN
+F 1 "GND" H 2255 6877 50  0000 C CNN
+F 2 "" H 2250 7050 50  0001 C CNN
+F 3 "" H 2250 7050 50  0001 C CNN
+	1    2250 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2250 6950 2    50   Input ~ 0
+~BR_20~
+$Comp
+L power:GND #PWR?
+U 1 1 5CA7BA1B
+P 3850 7550
+F 0 "#PWR?" H 3850 7300 50  0001 C CNN
+F 1 "GND" H 3855 7377 50  0000 C CNN
+F 2 "" H 3850 7550 50  0001 C CNN
+F 3 "" H 3850 7550 50  0001 C CNN
+	1    3850 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5CA7C028
+P 3850 6550
+F 0 "#PWR?" H 3850 6400 50  0001 C CNN
+F 1 "VCC" H 3867 6723 50  0000 C CNN
+F 2 "" H 3850 6550 50  0001 C CNN
+F 3 "" H 3850 6550 50  0001 C CNN
+	1    3850 6550
+	1    0    0    -1  
+$EndComp
+Text GLabel 4450 6650 2    50   Input ~ 0
+~BR_20~
+Text GLabel 3250 7450 0    50   Input ~ 0
+~BG_00~
+Text GLabel 3250 7350 0    50   Input ~ 0
+~BR_20~
+$Comp
+L ATX68030-cache:GAL16V8 U3-GAL3
+U 1 1 5CA6F52A
+P 3850 7050
+F 0 "U3-GAL3" H 3850 7798 60  0000 C CNN
+F 1 "GAL16V8" H 3850 7692 60  0000 C CNN
+F 2 "" H 3850 7050 50  0001 C CNN
+F 3 "" H 3850 7050 50  0001 C CNN
+	1    3850 7050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3250 7150 0    50   Input ~ 0
+E_00
+Text GLabel 4450 7250 2    50   Input ~ 0
+~BR_00~
+Text GLabel 4450 7350 2    50   Input ~ 0
+~BG_20~
+Text GLabel 4450 7050 2    50   Input ~ 0
+E_20
+$EndSCHEMATC
